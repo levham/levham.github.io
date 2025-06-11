@@ -1,1 +1,38 @@
+body  { 
+	margin: 0px;
+	padding: 0px;
+}
 
+#levham{ 
+	margin-left:50px;
+}
+
+		#levham_profil{
+			margin: 30px;
+			display: flex;
+			height: auto;
+		}
+
+ 
+				#levham_profil_img{
+					height: 128px;
+				}
+
+				#levham_profil_link{
+					display: flex;
+					float: right;
+					height: auto;
+					justify-content: center;
+					align-items: center;
+					margin-left: 20px;
+				}
+
+				#levham_profil_link h1 a{
+					text-decoration: none;
+					list-style-type: none;
+					color: black;
+					  font-family: Arial, sans-serif;
+				}
+
+
+	 
