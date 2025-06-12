@@ -1,41 +1,39 @@
-*  { 
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-h1,h2,a{ 
-	 	color:rgb(139,0,0);
-	 	font-style: italic;
-}
+       *  { 
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+        }
 
-#levham{ 
-	margin-left:50px;
-}
+        h1,h2,a{ 
+                        color:rgb(139,0,0);
+                        font-style: italic;
+        }
 
-		#div_profil{
-			margin: 30px;
-			height: 128px;
-			display: flex; 
-		}
+        #levham{ 
+                margin-left:50px;
+        }
 
- 
-				#_profil_img{
-					height: 128px;
-				}
-
-				#_profil_info{
-					display: flex; 
-					justify-content: center;
-					align-items: center;
-					margin-left: 20px;
-				}
-					 
-						#_profil_info_link h1 a{
-							text-decoration: none;
-							list-style-type: none; 
-							font-size: 42px;
-							font-family: Georgia, serif;
-						}
+                #div_profil{
+                        margin: 30px;
+                        height: 128px;
+                        display: flex; 
+                }
 
  
-	 
+                        #_profil_img{
+                                height: 128px;
+                        }
+
+                        #_profil_info{
+                                display: flex; 
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: 20px;
+                        }
+                                 
+                                #_profil_info_link h1 a{
+                                        text-decoration: none;
+                                        list-style-type: none; 
+                                        font-size: 42px;
+                                        font-family: Georgia, serif;
+                                }
