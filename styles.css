@@ -1,6 +1,7 @@
 *  { 
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 h1,h2,a{ 
 	 	color:rgb(139,0,0);
@@ -23,8 +24,7 @@ h1,h2,a{
 				}
 
 				#_profil_info{
-					display: flex;
-					float: right; 
+					display: flex; 
 					justify-content: center;
 					align-items: center;
 					margin-left: 20px;
