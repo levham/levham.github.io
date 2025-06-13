@@ -18,6 +18,7 @@
 
 
 
+
         #levham{ 
                 margin:20px 50px 20px 50px;
         }
@@ -76,4 +77,60 @@
                 }
                 #contact_link p {
                         margin:0px 15px 0px 15px;     
+                }
+
+
+                #projeler{
+                        margin:30px;
+                        padding: 20px;
+                        border: 2px dotted black;
+                        width: auto;
+                        border-radius: 25px 10px 10px 10px;
+                        
+                       
+                }
+
+                #projeler h2{
+                        justify-content: center;
+                        align-items: center;
+                }
+
+
+
+                #projeler_liste{
+
+
+
+                }
+
+                table{
+                        margin-top: 20px;
+
+                }
+                table,tr,td{
+                        border: 1px dotted black;
+                        border-collapse: collapse;
+                }
+
+               td {
+  text-align: center;
+padding: 10px;
+}
+ 
+                .R{
+                text-align:right;
+                margin-right: 5px;
+                }
+
+                .L{
+                text-align:left;
+                margin-left: 5px;
+                
+                }
+
+
+                th{
+padding: 20px;
+
+
                 }
