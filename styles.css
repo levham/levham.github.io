@@ -13,7 +13,6 @@
                 font-family: Trebuchet MS, sans-serif;
                 color:rgb(0, 0, 128);
                 font-style: italic;
-
         }
  
         #profil{
@@ -39,92 +38,167 @@
                                 font-family: Georgia, serif;
                         }
                         #profil_info_link h2{
-
                                 text-align: left;
                         }
 
- 
+        #contact { 
+           display: grid; 
+           align-items: center; 
+           justify-content: center;
 
-#contact {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-    margin:30px 0px 30px 0px;
-}
+        }
 
-#contact_div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    padding: 20px;
-    border: 2px dashed black;
-    border-radius: 25px 10px 10px 10px;
-}
- 
-                #contact_title  {
-                        display: flex;  
-                        align-items: center;
-                        justify-content: center;
-                }
+        #contact_div  {
+            border-radius: 25px 10px 10px 10px;
+            padding: 20px 20px 0px 20px ;
+        } 
 
-                #contact_link {
-                        display: flex;  
-                        margin:20px 0px 20px 0px;
-
-                }
-                #contact_link div{
+        #contact_link  {
                         display: flex;  
                         align-items: center; 
+                        justify-content: center;
+                        margin:20px 0px 20px 0px;
+                        background: rgba(233, 236, 107,0.2);
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        padding: 10px;
 
-                }
-                #contact_link div a{
+                        }
+
+                #contact_link  div { 
                         display: flex;  
-                        align-items: center;
-                        margin:0px 20px 0px 10px;
+                        align-items: center;  
+                        margin:0px 10px 0px 20px;
 
                 }
+
+                #contact_link div a{ 
+                        margin:0px 20px 0px 10px;
+                }
+
+ 
+
+
+        .line{
+                display: grid; 
+                align-items: center; 
+                justify-content: center;
+                width: auto;
+        }
+
+        .inline  {
+                border: 1px dotted black;
+                border-radius: 10px;
+                padding: 10px;
+
+        }
+
+        .dline{
+                display:  flex;
+        }
+
+        .timg{
+
+                border: 1px dotted black;
+
+        }
+        .tname{
+                border: 1px dotted black;
+                align-items: center;
+                justify-content: center;
+        }
+        .dname{
+
+        }
+
+        .dcontent{
+
+        }
+
+
+
+
+.card{ 
+        display:grid;
+        justify-content: center;
+        align-content: center; 
+        width: auto;
+        margin: 20px;
+} 
+
+.cardd{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 10px;
+}
+
+.card_head{
+        display:flex;
+        justify-content: center;
+        align-content: center; 
+        border-left: 1px solid gray;  /* Sol kenarlık */
+        border-top: 1px solid gray;   /* Üst kenarlık */
+        border-right: 1px solid gray; /* Sağ kenarlık */
+        border-bottom: none;           /* Alt kenarlık yok */
+        border-radius: 10px 10px 0px 0px;
+
+
+
+}
+
+.card_body {
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        border:1px solid gray;  
+}
+.card_body_end {
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        border:1px solid gray;  
+}
+.card_body_end {
+        border-radius: 0px 0px 10px 10px;
+
+}
+
+.a1,.a2,.a3,.a4{
+        align-content: center;
+        margin:10px 15px 10px 15px; 
+} 
+
+.card_head{
+
+        background: rgba(233, 236, 107,0.2);
+}
+.card_body,.card_body_end{
+        background: rgba(177, 162, 202,0.2);
+
+ }
+
+.a3 a{
+       text-decoration: none;
+       color: black;
+       font-style: normal;
+
+} 
+
+.a4{
+       font-style: italic;
+
+
+}
+
 
         #projeler{
-                margin-bottom: 20px;
+                margin: 20px 0px 20px 0px; 
         }
-/*
-        #projeler_liste{
-                border: 1px dashed black; 
-                border-radius: 20px 10px 10px 10px;
-                display: inline-block;
-        }
-*/
+ 
         #projeler_liste table{
                 margin-top: 20px;
                 border-collapse: collapse; /* Kenarları daha düzgün göstermek için */
                 text-align: center; /* İçeriği ortala */
 
         }
- 
-         tr,td{
-                border: 1px dashed black; 
-        }
- 
-                .R{
-                text-align:right;
-                margin-right: 5px;
-                }
-
-                .L{
-                text-align:left;
-                margin-left: 5px;
-                }
-
-                td {
-                        text-align: center;
-                        padding: 5px 10px 5px 10px;
-                }
-
-                th{
-                        padding: 20px;
-                }
-
- 
+  
