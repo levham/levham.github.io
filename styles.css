@@ -177,15 +177,21 @@
 
  }
 
+.a3 {
+
+       color: brown;
+
+}
 .a3 a{
        text-decoration: none;
-       color: black;
+       color: brown;
        font-style: normal;
 
 } 
 
-.a4{
+.a4 {
        font-style: italic;
+       color: darkgreen;
 
 
 }
