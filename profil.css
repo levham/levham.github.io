@@ -1,0 +1,63 @@
+
+
+        #profil{
+                margin: 30px;
+                height: auto;
+                width: auto;
+                display: flex;  
+                justify-content: center;
+                align-items: center;
+                align-items: stretch;
+        } 
+
+                #profil_img{  
+                        display: flex;
+                }
+                #profil_img img{
+                        height:auto; 
+                } 
+                #profil_info{
+
+                        margin-left: 70px;
+                }
+
+                #profil_info_link  h1 a {   
+                        font-style: italic;
+                        color: #003366;
+                        font-family: 'Segoe UI Light', 'Segoe UI', sans-serif;
+                        text-decoration: none;
+                        font-size: 48px;
+                }
+
+                #profil_info_link  h2{  
+                        font-family: 'Segoe UI Light', 'Segoe UI', sans-serif;
+                        font-style: italic;
+                        color:rgb(0, 0, 128); 
+                        text-decoration: none;
+                        margin: 5px;
+                }
+
+        #contact_link  {
+                        display: flex;  
+                        align-items: center; 
+                        justify-content: center; 
+                        padding-bottom : 5px;
+                        margin:10px 0px;
+
+                        }
+
+                #contact_link  div { 
+                        display: flex;  
+                        align-items: center;  
+                        margin:0px 10px 0px 0px;
+                }
+
+                #contact_link div a{ 
+                        margin:0px 20px 0px 10px;
+                        font-family: 'Segoe UI', sans-serif;
+                        font-style: italic; 
+                        color: purple;
+                }
+
+               
+   

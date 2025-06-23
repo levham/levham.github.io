@@ -4,81 +4,8 @@
                 box-sizing: border-box;
         }
  
-        h1,a{ 
-                color:rgb(0, 0, 128);
-                font-style: italic;
-        }
-
-        h2{
-                font-family: Trebuchet MS, sans-serif;
-                color:rgb(0, 0, 128);
-                font-style: italic;
-        }
  
-        #profil{
-                margin: 30px;
-                height: 128px;
-                display: flex;  
-                justify-content: center;
-                align-items: center;
-        } 
-
-                #profil_img{
-                        height: 128px;
-                }
-
-                #profil_info{ 
-                        margin-left: 20px;
-                }
-                         
-                        #profil_info_link h1 a{
-                                text-decoration: none;
-                                list-style-type: none; 
-                                font-size: 42px;
-                                font-family: Georgia, serif;
-                        }
-                        #profil_info_link h2{
-                                text-align: left;
-                        }
-
-        #contact { 
-           display: grid; 
-           align-items: center; 
-           justify-content: center;
-
-        }
-
-        #contact_div  {
-            border-radius: 25px 10px 10px 10px;
-            padding: 20px 20px 0px 20px ;
-        } 
-
-        #contact_link  {
-                        display: flex;  
-                        align-items: center; 
-                        justify-content: center;
-                        margin:20px 0px 20px 0px;
-                        background: rgba(233, 236, 107,0.2);
-                        border: 1px solid black;
-                        border-radius: 10px;
-                        padding: 10px;
-
-                        }
-
-                #contact_link  div { 
-                        display: flex;  
-                        align-items: center;  
-                        margin:0px 10px 0px 20px;
-
-                }
-
-                #contact_link div a{ 
-                        margin:0px 20px 0px 10px;
-                }
-
  
-
-
         .line{
                 display: grid; 
                 align-items: center; 
@@ -107,21 +34,11 @@
                 align-items: center;
                 justify-content: center;
         }
-        .dname{
-
-        }
-
-        .dcontent{
-
-        }
-
-
-
 
 .card{ 
         display:grid;
         justify-content: center;
-        align-content: center; 
+        align-content: flex-start; 
         width: auto;
         margin: 20px;
 } 
@@ -141,9 +58,6 @@
         border-right: 1px solid gray; /* Sağ kenarlık */
         border-bottom: none;           /* Alt kenarlık yok */
         border-radius: 10px 10px 0px 0px;
-
-
-
 }
 
 .card_body {
@@ -166,16 +80,17 @@
 .a1,.a2,.a3,.a4{
         align-content: center;
         margin:10px 15px 10px 15px; 
+        font-family: 'Segoe UI', sans-serif;
 } 
 
 .card_head{
-
         background: rgba(233, 236, 107,0.2);
 }
 .card_body,.card_body_end{
         background: rgba(177, 162, 202,0.2);
+}
 
- }
+
 
 .a3 {
 
@@ -186,21 +101,23 @@
        text-decoration: none;
        color: brown;
        font-style: normal;
-
 } 
 
 .a4 {
        font-style: italic;
        color: darkgreen;
-
-
 }
-
 
         #projeler{
                 margin: 20px 0px 20px 0px; 
         }
  
+        #projeler_liste{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+        }
+
         #projeler_liste table{
                 margin-top: 20px;
                 border-collapse: collapse; /* Kenarları daha düzgün göstermek için */
