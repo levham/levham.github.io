@@ -81,6 +81,7 @@
         align-content: center;
         margin:10px 15px 10px 15px; 
         font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
 } 
 
 .card_head{
@@ -90,22 +91,21 @@
         background: rgba(177, 162, 202,0.2);
 }
 
-
-
-.a3 {
-
-       color: brown;
-
+.a2{
+        font-size: 25px;
+       font-style: italic;
+         color: #003366; 
 }
-.a3 a{
+ 
+.a3 a, .a3{
        text-decoration: none;
-       color: brown;
-       font-style: normal;
+       color: #f56141;
+       font-style: italic;
 } 
 
 .a4 {
        font-style: italic;
-       color: darkgreen;
+       color: #33ae6f;
 }
 
         #projeler{
