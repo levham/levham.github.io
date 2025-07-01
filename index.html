@@ -45,8 +45,25 @@
                         }
                 }
  
+            function toogle(){ 
+                const div = document.getElementById("alfa");
+                if (div.style.display === "none") {
+                        div.style.display = "block"; // tekrar görünür yap
+                } else {
+                        div.style.display = "none"; // gizle
+                }
+        }
 
- 
+         function subb(num) {
+                for (let i = 1; i <= 4; i++) {
+                        const el = document.getElementById("subb" + i);
+                        if (el) {
+                          el.style.display = (i === num) ? "block" : "none";
+                        }
+                }
+        }
+
+
         </script>
 
 </head> 
@@ -129,14 +146,14 @@
 
                                         </div> 
                                         <div class="card_body_end"> 
-                                                <div class="a3"> levham </div>
-                                                <div class="a4"> portfolyo sayfası</div>
+                                                <div class="a3"> levham yazılım sayfası</div>
+                                                <div class="a4"> projelerin gösterildiği sayfa</div>
                                         </div>
                                 </div> 
                         </div>
 
 
-                         <div class="card">  
+                        <div class="card">  
                                 <div class="cardd">
                                         <div class="card_head"> 
                                                 <div class="a1"> <img src="img/js.png"></div>
@@ -145,7 +162,6 @@
                                         <div class="card_body"> 
                                                 <div class="a3"> <a href="https://t.me/mat_mr1aybot"  >mat_mr1aybot</a> </div>
                                                 <div class="a4"> Menü üzerinden Matematik Formulleri Gönderir</div>
-                                                
                                         </div> 
                                         <div class="card_body">  
                                                 <div class="a3"><a href="https://t.me/matgrup_mr1aybot "  >matgrup_mr1aybot</a>  </div>  
@@ -165,7 +181,7 @@
                                         </div>   
                                         <div class="card_body">  
                                                 <div class="a3"><a href="https://t.me/doviz_mr1aybot "  >doviz_mr1aybot</a>  </div>  
-                                                <div class="a4">Döviz hakkında bilgi göndererek kullanıcıyı bilgilendirir</div>
+                                                <div class="a4">Dövizler hakkında kullanıcıyı bilgilendirir</div>
                                         </div>  
                                         <div class="card_body">  
                                                 <div class="a3"><a href="https://t.me/hesapla_mr1aybot "  >hesapla_mr1aybot</a>  </div>  
@@ -186,14 +202,94 @@
                                 </div>  
                         </div> 
                         
-
-
                 </div>
         
 
                 <div id="projeler_notu">
-                             
+                        <div class="navsub">
+                              <a href="#"  onclick="subb(1)">Agile</a>     
                         </div>
+
+                        <div id="subb1" class="text" >
+                                         
+                                <article>
+                                  <h1>Agile (Çevik Yazılım) Nedir?</h1>
+                                  <p>2001 yılında yayınlanan Agile Manifesto ile ortaya çıkmıştır. Agile, yazılım geliştirme sürecini küçük, yönetilebilir parçalara (sprint’lere) bölerek adım adım ilerlemeyi sağlayan bir proje yönetim yaklaşımıdır. Özellikle belirsizliğin yüksek olduğu, kullanıcı ihtiyaçlarının zamanla değişebileceği projelerde çok etkilidir.</p>
+
+                                  <h2>Temel İlkeleri</h2>
+                                  <ul>
+                                    <li>Sürekli teslimat</li>
+                                    <li>Müşteri ile yakın iş birliği</li>
+                                    <li>Değişikliklere hızlı adaptasyon</li>
+                                    <li>Sadelik ve sürdürülebilir hız</li>
+                                  </ul>
+
+                                  <h2>Avantajları</h2>
+                                  <ul>
+                                    <li>Hızlı geri bildirim alınır</li>
+                                    <li>Değişikliklere kolay uyum sağlanır</li>
+                                    <li>Takım içi iletişim güçlenir</li>
+                                    <li>Hatalar daha erken tespit edilir</li>
+                                    <li>Müşteri sürecin bir parçasıdır</li>
+                                    <li>Esnek ve kullanıcı odaklıdır</li>
+                                  </ul>
+
+                                  <h2>Uygulama Alanları</h2>
+                                  <ul>
+                                    <li>Değişken gereksinimlere sahip projeler</li>
+                                    <li>Uzun süreli, modüler yapılar</li>
+                                    <li>Web ve mobil uygulamalar</li>
+                                    <li>Start-up ve MVP geliştirmeleri</li>
+                                  </ul>
+
+                                  <h2>Agile Yaklaşımlar</h2>
+                                  <table border="1" cellpadding="5" cellspacing="0" >
+                                    <tr>
+                                      <th>Yöntem</th>
+                                      <th>Açıklama</th>
+                                    </tr>
+                                    <tr>
+                                      <td>Scrum</td>
+                                      <td>Sprint odaklı, ritüellerle çalışan bir yapı</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Kanban</td>
+                                      <td>Görsel görev panoları ve sürekli akış</td>
+                                    </tr>
+                                    <tr>
+                                      <td>XP</td>
+                                      <td>Yazılım kalitesine ve teknik uygulamalara odaklanır</td>
+                                    </tr>
+                                  </table>
+
+                                  <h2>Scrum Roller</h2>
+                                  <ul>
+                                    <li><strong>Product Owner:</strong> İhtiyaçları ve öncelikleri belirler</li>
+                                    <li><strong>Scrum Master:</strong> Süreci koordine eder</li>
+                                    <li><strong>Scrum Takımı:</strong> Geliştirici, tasarımcı, testçilerden oluşur</li>
+                                  </ul>
+
+                                  <h2>Scrum Süreci</h2>
+                                  <ol>
+                                    <li>Product Backlog oluşturulur</li>
+                                    <li>Sprint planlama yapılır</li>
+                                    <li>Günlük stand-up toplantıları</li>
+                                    <li>Sprint geliştirme süreci</li>
+                                    <li>Sprint gözden geçirme</li>
+                                    <li>Retrospektif toplantılar</li>
+                                  </ol>
+                                </article>
+
+ 
+
+                        </div>   
+                        <div id="subb2" >
+
+
+
+                        </div>   
+        
+                </div>
 
 
         </div>

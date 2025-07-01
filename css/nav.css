@@ -22,14 +22,29 @@ nav a {
 		font-style: italic;
 		text-decoration: none;
 		color: #003366;
-		 background: rgba(233, 236, 107,0.2);
+	    background-color: rgb(230, 240, 255);  
+		
 }
 nav a:hover{
 		color: purple;
-	    background-color: rgb(230, 240, 255);  
+		 background: rgba(233, 236, 107,0.2);
 	    transition: background-color 0.5s 
 
 
 }
+.navsub {
+	padding: 20px;
+}
+.navsub a{
+	padding: 12px; 
+		border-radius: 5px;
+		border: 1px solid rgb(0, 0, 128);
+		background: rgba(233, 236, 107,0.2);
 
-
+		color: #003366;
+		font-size: 20px;
+		text-decoration: none;
+		font-family: 'Segoe UI', sans-serif;
+		font-size: 24px;
+		font-style: italic;
+ }
