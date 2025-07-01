@@ -6,73 +6,89 @@
         <title>Github Pages</title> 
         
         <!-- CSS  --> 
-                <link rel="stylesheet" href="css/styles.css"> 
-                <link rel="stylesheet" href="css/profil.css"> 
-                <link rel="stylesheet" href="css/nav.css"> 
-        	<link rel="stylesheet" href="css/card.css"> 
+            <link rel="stylesheet" href="css/styles.css"> 
+            <link rel="stylesheet" href="css/profil.css"> 
+            <link rel="stylesheet" href="css/nav.css"> 
+	    <link rel="stylesheet" href="css/card.css"> 
         <style>
-#profil{
-        background: rgb( 251, 251, 255 ) ; 
+            body{        background: rgba(248, 249, 249,0.5 ) ; } 
 
-}
+            #profil{     background: rgb(251, 251, 255 ) ; }
+            nav {        background: rgb(244, 246, 246 ) ; }
+            #projeler{   background: rgba(248, 249, 249,0.5 ) ; } 
 
-nav {
-
-        background : rgb(242, 228, 255); 
-}
-
-#projeler{
-        background : rgb(255, 255, 251  ); 
-        
-}
-
+                #projeler_liste {  display: block; }
+                #projeler_notu  {  display: none;  }
 
         </style>
+
+     
+
+
+        <script>
+            function navv(x) {
+ 
+                const page1 = document.getElementById("projeler_liste");
+                const page2 = document.getElementById("projeler_notu");
+
+                switch(x){
+                        case 1:
+                                page1.style.display = "block";
+                                page2.style.display = "none";  
+                                break;
+                        case 2:
+                                page1.style.display = "none";  
+                                page2.style.display = "block";
+                                break;
+
+
+                        }
+                }
+ 
+
+ 
+        </script>
+
 </head> 
- 
 <body> 
-    <div id="levham"> 
+
+        <div id="levham"> 
  
-        <div id="profil">
-                <div id="profil_img">
-                        <img src="img/logo.png">
+                <div id="profil">
+                        <div id="profil_img">
+                                <img src="img/logo.png">
                         </div>
 
-                <div id="profil_info">
+                        <div id="profil_info">
 
-                        <div id="profil_info_link">
-                                <h1><a href="https://levham.github.io/" target="_blank">Levham</a></h1><br>
-                                <h2>Developer</h2>
-                        </div>
+                                <div id="profil_info_link">
+                                        <h1><a href="https://levham.github.io/" target="_blank">Levham</a></h1><br>
+                                        <h2>Developer</h2>
+                                </div>
 
-                        <div id="contact_link">
-                                <div >
-                                        <img src="img/linkedin.png" width="32" height="32">
-                                        <a href="https://www.linkedin.com/in/murathan-a-b16a1a26a/">Linkedin </a>
+                                <div id="contact_link">
+                                        <div >
+                                                <img src="img/linkedin.png" width="32" height="32">
+                                                <a href="https://www.linkedin.com/in/murathan-a-b16a1a26a/">Linkedin </a>
                                         </div>
-                                <div >
-                                        <img src="img/telegram.png" width="32" height="32">
-                                        <a href="https://t.me/mr1ay">Telegram</a>
+                                        <div >
+                                                <img src="img/telegram.png" width="32" height="32">
+                                                <a href="https://t.me/mr1ay">Telegram</a>
                                         </div>
 
+                                </div>
                         </div>
                 </div>
         </div>
 
+        <nav  >
+               <a href="#" onclick="navv(1)" >Projeler</a>
+               <a href="#" onclick="navv(2)" >Notlar</a>  
+        </nav>
 
-<nav  >
-       <a href="#" onclick="navv(1)" >Projeler</a>
-       <a href="#" onclick="navv(2)" >Notlar</a> 
 
-</nav>
-
-        <div id="projeler" align="center">
-                <!-- 
-                <td><button>resim1</button><button>video</button></td>
-                --> 
-
-                <div id="projeler_liste">
-
+        <div id="projeler">
+                <div id="projeler_liste"  >
                         <div class="card">  
                                 <div class="cardd">
                                         <div class="card_head"> 
@@ -100,6 +116,22 @@ nav {
                                                 <div class="a4"> Json dosyası üzerinden Butonlu menü oluşturabilirsiniz</div>
                                                 
                                         </div> 
+                                </div> 
+                        </div>
+
+
+
+                        <div class="card">  
+                                <div class="cardd">
+                                        <div class="card_head"> 
+                                                <div class="a1"> <img src="img/html.png"><img src="img/css.png"><img src="img/js.png"></div>
+                                                <div class="a2"> Html,Css,Js Projeleri </div>
+
+                                        </div> 
+                                        <div class="card_body_end"> 
+                                                <div class="a3"> levham </div>
+                                                <div class="a4"> portfolyo sayfası</div>
+                                        </div>
                                 </div> 
                         </div>
 
@@ -152,23 +184,32 @@ nav {
                                                 <div class="a4">Yks'ye kalan gün sayısını günlük bildirir</div>
                                         </div>  
                                 </div>  
+                        </div> 
+                        
+
+
+                </div>
+        
+
+                <div id="projeler_notu">
+                             
                         </div>
 
 
-                        <div class="card">  
-                                <div class="cardd">
-                                        <div class="card_head"> 
-                                                <div class="a1"> <img src="img/html.png"><img src="img/css.png"><img src="img/js.png"></div>
-                                                <div class="a2"> Html,Css,Js Projeleri </div>
+        </div>
 
-                                        </div> 
-                                        <div class="card_body_end"> 
-                                                <div class="a3"> levham </div>
-                                                <div class="a4"> portfolyo sayfası</div>
-                                        </div>
-                                </div> 
-                        </div>
-<!--
+
+
+ 
+
+ 
+</body> 
+</html> 
+
+
+
+  <!--
+
                         <div class="card">  
                                 <div class="cardd">
                                         <div class="card_head"> 
@@ -177,13 +218,12 @@ nav {
 
                                         </div> 
                                         <div class="card_body_end"> 
-                                                <div class="a3"> .. </div>
-                                                <div class="a4"> ..</div>
+                                                <div class="a3"> asdasdasdasdasasdasdas s </div>
+                                                <div class="a4"> asdasdasdasdasdasdasda s</div>
                                         </div>
                                 </div> 
-                        </div>
-
-                        
+                        </div> 
+       
                         <div class="card">  
                                 <div class="cardd">
                                         <div class="card_head"> 
@@ -393,10 +433,4 @@ nav {
                         </div>    
 -->
 
-</div>
-</div>
-</div>
-
- 
-</body> 
-</html> 
+        

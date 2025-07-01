@@ -1,28 +1,39 @@
 
-        #projeler{
-                padding: 20px 0px 20px 0px; 
+#projeler{
+        width: 100%; 
+        padding: 20px 0px 20px 0px; 
+        display: grid; 
+        text-align: center;
+} 
+ 
+        #projeler_liste {
+          column-width: 600px;
+          column-gap: 16px;
+          width: 100%; 
         }
  
-        #projeler_liste{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-        }
-
         #projeler_liste table{
                 margin-top: 20px;
                 border-collapse: collapse; /* Kenarları daha düzgün göstermek için */
                 text-align: center; /* İçeriği ortala */
 
-        }
-  
-.card{ 
-        display:grid;
+        } 
+
+
+.card {
+        break-inside: avoid;
+        margin-bottom: 16px; 
+        padding: 5px;
+        border-radius: 8px; 
+
+        display: inline-block;
         justify-content: center;
         align-content: flex-start; 
         width: auto;
         margin: 20px;
 } 
+ 
+ 
 
 .cardd{
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -62,7 +73,6 @@
         align-content: center;
         margin:10px 15px 10px 15px; 
         font-family: 'Segoe UI', sans-serif;
-        font-size: 20px;
 } 
 
 .card_head{
@@ -71,9 +81,9 @@
 .card_body,.card_body_end{
         background: rgba(177, 162, 202,0.2);
 }
-
+  
 .a2{
-        font-size: 25px;
+        font-size: 22px;
        font-style: italic;
          color: #003366; 
 }
@@ -83,6 +93,11 @@
        color:  rgb(23, 165, 137); 
        font-style: italic;
 } 
+
+.a3 ,.a4 { 
+        font-size: 17px;
+
+}
 
 .a4 {
        font-style: italic;
