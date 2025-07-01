@@ -1,13 +1,14 @@
 
 
         #profil{
-                margin: 30px;
+                padding: 30px;
                 height: auto;
                 width: auto;
                 display: flex;  
                 justify-content: center;
                 align-items: center;
-                align-items: stretch;
+                align-items: stretch; 
+               /* background: none;*/
         } 
 
                 #profil_img{  

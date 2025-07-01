@@ -1,40 +1,21 @@
-       *  { 
-                margin: 0px;
-                padding: 0px;
-                box-sizing: border-box;
+
+        #projeler{
+                padding: 20px 0px 20px 0px; 
         }
  
- 
- 
-        .line{
-                display: grid; 
-                align-items: center; 
-                justify-content: center;
-                width: auto;
-        }
-
-        .inline  {
-                border: 1px dotted black;
-                border-radius: 10px;
-                padding: 10px;
-
-        }
-
-        .dline{
-                display:  flex;
-        }
-
-        .timg{
-
-                border: 1px dotted black;
-
-        }
-        .tname{
-                border: 1px dotted black;
-                align-items: center;
+        #projeler_liste{
+                display: flex;
+                flex-wrap: wrap;
                 justify-content: center;
         }
 
+        #projeler_liste table{
+                margin-top: 20px;
+                border-collapse: collapse; /* Kenarları daha düzgün göstermek için */
+                text-align: center; /* İçeriği ortala */
+
+        }
+  
 .card{ 
         display:grid;
         justify-content: center;
@@ -81,7 +62,7 @@
         align-content: center;
         margin:10px 15px 10px 15px; 
         font-family: 'Segoe UI', sans-serif;
-        font-size: 18px;
+        font-size: 20px;
 } 
 
 .card_head{
@@ -99,29 +80,11 @@
  
 .a3 a, .a3{
        text-decoration: none;
-       color: #f56141;
+       color:  rgb(23, 165, 137); 
        font-style: italic;
 } 
 
 .a4 {
        font-style: italic;
-       color: #33ae6f;
+       color:  rgb(155, 89, 182  ); 
 }
-
-        #projeler{
-                margin: 20px 0px 20px 0px; 
-        }
- 
-        #projeler_liste{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-        }
-
-        #projeler_liste table{
-                margin-top: 20px;
-                border-collapse: collapse; /* Kenarları daha düzgün göstermek için */
-                text-align: center; /* İçeriği ortala */
-
-        }
-  
