@@ -11,6 +11,7 @@
                 width: 100%; 
         }
 
+/* Card yeri */
 .card {
         break-inside: avoid; 
         padding: 5px;
@@ -23,12 +24,13 @@
         margin: 10px;
 } 
 
-        .cardd{
-                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                transition: 0.3s;
-                border-radius: 5px;
-        } 
+.cardd{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+} 
 
+ /* Card öğeleri */
         .b1,.b2,.b3,.b4{
                 align-content: center;
                 font-family: 'Segoe UI', sans-serif;
@@ -55,48 +57,47 @@
                color:  rgb(155, 89, 182  ); 
         }
          
-        /* Açılır Düğmeye Stil Verir */
-        .btn { 
-                color: white;
-                padding: 10px;
-                font-size: 16px;
-                border: none;
-                cursor: pointer;
-                width: 40px;
-                height: 40px;
-        }
-        
+/* Açılır Düğmeye Stil Verir */
+.btn { 
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+}
+
 
 /* yy için ayar */
 .yy { 
-        width: 100% ; 
+        width: 300px; 
         padding: 10px 0 0 0; 
 }
 
         .c{
-                box-shadow:0px 2px 0px 2px rgba(0,0,0,0.2); ;
+                box-shadow:0px 0px 2px 0px rgba(0,0,0,0.2); 
                 padding: 10px 5px; 
         }
 
         /* Açılır İçerik (Varsayılan Olarak Gizlidir) */
         .yer {
-                display: none;
+                visibility: hidden;
                 position: absolute;
                 background-color: #fdfdfd;
-                min-width: 200px;
-                box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+                width: 290px;
+                box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
                 z-index: 1; 
         } 
 
         /*  açılır bağlantıların rengi  */
         .yer .b3:hover  { 
                 background-color: #f1f1f1     
-
         }
          
         /*  açılır listeyi gösterir */
         .yy:hover .yer    {
-                display: block; 
+                visibility: visible;
         }
 
         /* açılır düğme animasyonu */
