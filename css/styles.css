@@ -1,98 +1,12 @@
-*  { 
+*{ 
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
 } 
 
 body{  
-  
-  justify-content: center;
-  align-items: center;
+
+        justify-content: center;
+        align-items: center;
 }
- 
- 
- 
-
- 
-
-
-  .text {
-    font-family: "Segoe UI", sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 10px 40px;
-    max-width: 800px;
-    margin: 0px auto;
-  }
-
-  .text article {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.05);
-  }
-
-  .text h1 {
-    font-size: 2em;
-    color: #2c3e50;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-  }
-
-  .text h2 {
-    font-size: 1.4em;
-    margin-top: 30px;
-    color: #34495e;
-  }
-
-  .text p,
-  .text ul,
-  .text ol,
-  .text table {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .text ul,
-  .text ol {
-    padding-left: 20px;
-  }
-
-  .text li {
-    margin-bottom: 8px;
-    list-style-type: none;
-  }
-
-  .text table {
-width: 100% ;margin: auto
-    border-collapse: collapse;
-    font-size: 0.95em;
-     /* display: inline-block;*/
-  }
-
-  .text table th,
-  .text table td {
-    border: 1px solid #ccc;
-    padding: 10px 20px;
-    text-align: left;
-  }
-
-  .text table th {
-    background-color: #f0f0f0;
-    color: #2d3436;
-  }
-
-  .text strong {
-    color: #2d3436;
-  } 
-
-
- 
-
-
-
-
-
-
 

@@ -33,10 +33,10 @@ nav a:hover{
 
 }
 .navsub {
-	padding: 20px;
+		padding: 20px;
 }
 .navsub a{
-	padding: 12px; 
+		padding: 12px; 
 		border-radius: 5px;
 		border: 1px solid rgb(0, 0, 128);
 		background: rgba(233, 236, 107,0.2);
