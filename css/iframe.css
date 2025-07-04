@@ -1,34 +1,17 @@
-/* 
 
-.container_iframe {
-    position: relative;
-     width: 80%;
-     height: 0;
-     padding-bottom: 50%; 
-         display: flex;
-    justify-content: center;
- }
- .iframe {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 80%;
-     height: 100%;
- }
-*/
- .container_iframe {
-    position: relative;
-    width: 80%;
-    margin: 0 auto; /* Sayfa ortasına hizalar */
-    height: 0;
-    padding-bottom: 50%; /* 16:9 oran için 56.25%, 2:1 için 50% */
-  }
+        .container_iframe {
+                position: relative;
+                width: 80%;
+                margin: 0 auto; /* Sayfa ortasına hizalar */
+                height: 0;
+                padding-bottom: 50%; /* 16:9 oran için 56.25%, 2:1 için 50% */
+        }
 
-  .container_iframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Konteynerin tamamını kaplasın */
-    height: 100%;
-    border: none;
-  }
+        .container_iframe iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%; /* Konteynerin tamamını kaplasın */
+                height: 100%;
+                border: none;
+        }

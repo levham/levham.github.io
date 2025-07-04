@@ -5,8 +5,7 @@
                 display: flex;  
                 justify-content: center;
                 align-items: center;
-                align-items: stretch; 
-               /* background: none;*/
+                align-items: stretch;  
         } 
 
                 #profil_img{  
@@ -42,8 +41,7 @@
                         justify-content: center; 
                         padding-bottom : 5px;
                         margin:10px 0px;
-
-                        }
+                }
 
                 #contact_link  div { 
                         display: flex;  
@@ -56,7 +54,4 @@
                         font-family: 'Segoe UI', sans-serif;
                         font-style: italic; 
                         color: purple;
-                }
-
-               
-   
+                } 
