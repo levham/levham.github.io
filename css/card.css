@@ -1,7 +1,7 @@
 
 #projeler{
         width: 100%; 
-        padding: 20px 0px 40px 0px; 
+        padding: 20px 0px 20px 0px; 
         display: grid; 
         text-align: center;
 } 
@@ -82,7 +82,7 @@
 
         /* Açılır İçerik (Varsayılan Olarak Gizlidir) */
         .yer {
-                visibility: hidden;
+                display: none;
                 position: absolute;
                 background-color: #fdfdfd;
                 width: 290px;
@@ -97,7 +97,7 @@
          
         /*  açılır listeyi gösterir */
         .yy:hover .yer    {
-                visibility: visible;
+                display: block;
         }
 
         /* açılır düğme animasyonu */

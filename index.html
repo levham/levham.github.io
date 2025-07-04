@@ -11,6 +11,7 @@
             <link rel="stylesheet" href="css/nav.css"> 
             <link rel="stylesheet" href="css/card.css"> 
             <link rel="stylesheet" href="css/notes.css"> 
+            <link rel="stylesheet" href="css/iframe.css"> 
 
         <style>
             body{        background: rgba(248, 249, 249,0.5 ) ; } 
@@ -29,6 +30,7 @@
 
         display: none;
 }
+
 
 
         </style>
@@ -114,9 +116,16 @@
         </div>
 
         <nav id="nav" >
-               <a href="#nav" onclick="navv(1)" >Projeler</a>
-               <a href="#nav" onclick="navv(2)" >Notlar</a>  
+               <a href="javascript:void(0)" onclick="navv(1)" >Projeler</a>
+               <a href="javascript:void(0)" onclick="navv(2)" >Notlar</a>  
         </nav>
+
+
+<script>
+        const y = window.scrollY;
+        document.querySelector('.yer').style.display = 'block';
+        window.scrollTo(0, y);
+</script>
 
 
         <div id="projeler">
@@ -158,7 +167,7 @@
                                 <div class="cardd">
                                         <div class="yy">
                                                 <p class="b1"> <img src="img/html.png"><img src="img/css.png"><img src="img/js.png"></p>
-                                                <p class="b2"> hHtml,Css,Js Projeleri </p>
+                                                <p class="b2"> Html,Css,Js Projeleri </p>
                                                 <input class="btn" type="image" src="icon/arrow.png"  /> 
                                                 <div class="yer">
                                                         <div class="c">
@@ -226,141 +235,33 @@
  
                         
                 </div>
-        
+          
+                        <script>
+                                /*  const iframe = document.getElementById("mainframe");
+                                  iframe.onload = function () {
+                                    const yukseklik = iframe.contentWindow.document.body.scrollHeight;
+                                    iframe.style.height = yukseklik + "px";
+                                  };*/
+                        </script>
 
                 <div id="projeler_notu">
                         <div class="navsub">
                               <a href="#"  onclick="subb(1)">Agile</a>     
                         </div>
 
+                        <div class="container_iframe" align="center">
+                            <iframe     src="page/agile.html" 
+
+                                        style="border: none" 
+                                        class="iframe" 
+                                > 
+                            </iframe>
+                        </div>
+
+ 
                         <div id="subb1" class="text" >
                                          
-                                <article>
-                                  <h1>Agile (Çevik Yazılım) Nedir?</h1>
-                                  <p>2001 yılında yayınlanan Agile Manifesto ile ortaya çıkmıştır. Agile, yazılım geliştirme sürecini küçük, yönetilebilir parçalara (sprint’lere) bölerek adım adım ilerlemeyi sağlayan bir proje yönetim yaklaşımıdır. Özellikle belirsizliğin yüksek olduğu, kullanıcı ihtiyaçlarının zamanla değişebileceği projelerde çok etkilidir.</p>
-
-                                  <h2>Temel İlkeleri</h2>
-                                  <ul>
-                                    <li>Sürekli teslimat</li>
-                                    <li>Müşteri ile yakın iş birliği</li>
-                                    <li>Değişikliklere hızlı adaptasyon</li>
-                                    <li>Sadelik ve sürdürülebilir hız</li>
-                                  </ul>
-
-                                  <h2>Avantajları</h2>
-                                  <ul>
-                                    <li>Hızlı geri bildirim alınır</li>
-                                    <li>Değişikliklere kolay uyum sağlanır</li>
-                                    <li>Takım içi iletişim güçlenir</li>
-                                    <li>Hatalar daha erken tespit edilir</li>
-                                    <li>Müşteri sürecin bir parçasıdır</li>
-                                    <li>Esnek ve kullanıcı odaklıdır</li>
-                                  </ul>
-
-                                  <h2>Uygulama Alanları</h2>
-                                  <ul>
-                                    <li>Değişken gereksinimlere sahip projeler</li>
-                                    <li>Uzun süreli, modüler yapılar</li>
-                                    <li>Web ve mobil uygulamalar</li>
-                                    <li>Start-up ve MVP geliştirmeleri</li>
-                                  </ul>
-
-                                  <h2>Agile Yaklaşımlar</h2>
-                                  <table border="1" cellpadding="5" cellspacing="0" >
-                                    <tr>
-                                      <th>Yöntem</th>
-                                      <th>Açıklama</th>
-                                    </tr>
-                                    <tr>
-                                      <td>Scrum</td>
-                                      <td>Sprint odaklı, ritüellerle çalışan bir yapı</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Kanban</td>
-                                      <td>Görsel görev panoları ve sürekli akış</td>
-                                    </tr>
-                                    <tr>
-                                      <td>XP</td>
-                                      <td>Yazılım kalitesine ve teknik uygulamalara odaklanır</td>
-                                    </tr>
-                                  </table>
-
-                                  <h2>Scrum Roller</h2>
-                                  <ul>
-                                    <li><strong>Product Owner:</strong> İhtiyaçları ve öncelikleri belirler</li>
-                                    <li><strong>Scrum Master:</strong> Süreci koordine eder</li>
-                                    <li><strong>Scrum Takımı:</strong> Geliştirici, tasarımcı, testçilerden oluşur</li>
-                                  </ul>
-
-                                  <h2>Scrum Süreci</h2>
-                                  <ol>
-                                    <li>Product Backlog oluşturulur</li>
-                                    <li>Sprint planlama yapılır</li>
-                                    <li>Günlük stand-up toplantıları</li>
-                                    <li>Sprint geliştirme süreci</li>
-                                    <li>Sprint gözden geçirme</li>
-                                    <li>Retrospektif toplantılar</li>
-                                  </ol>
-  
-                                        <h2> Örnek Proje:  </h2>
-                                        <h3> 1. Product Backlog Oluşturma </h3>
-                                        <p>Ürün Sahibi (PO), müşterilerle görüşerek ihtiyaçları belirler:</p>
-                                        <ol> 
-                                                <li>Ürün listeleme </li>
-                                                <li>Sepete ekleme  </li>
-                                        </ol> 
-                                        <p>Bu ihtiyaçlar Product Backlog listesine yazılır ve önceliklendirilir.</p>
-
-                                        <h3>2. Sprint Planlama</h3>
-                                        <p>Takım, ilk sprintte yapılacak işleri seçer:</p>
-                                        <ol>
-                                                <li>Kullanıcı girişi ekranı</li>
-                                                <li>Ürün listeleme sayfası</li>
-                                                <li>Sprint süresi: 2 hafta</li>
-                                        </ol>
-
-
-                                        <h3>3. Sprint Geliştirme Süreci</h3>
-                                        <p>Geliştirme ekibi seçilen işleri yapmaya başlar. Her gün kısa Daily Stand-up toplantıları yapılır:</p>
-                                        <ol>
-                                                <li>Kim ne yaptı?</li>
-                                                <li>Bugün ne yapacak?</li>
-                                                <li>Bir engel var mı?</li>
-                                        </ol>
-
-
-                                        <h3>4. Sprint Review (Gözden Geçirme)</h3>
-                                        <p>2 haftanın sonunda yapılan işler demo ile gösterilir:</p>
-                                        <ol>
-                                                <li>Kullanıcı girişi ve ürün listeleme ekranları çalışır durumda sunulur.</li>
-                                                <li>Paydaşlardan geri bildirim alınır.</li>
-                                        </ol>
-
-
-                                        <h3>5. Sprint Retrospektif</h3>
-                                        <p>Ekip kendi sürecini değerlendirir:</p>
-                                        <ol>
-                                                <li>Neler iyi gitti? </li>
-                                                <li>Neler geliştirilebilir? </li>
-                                                <li>Bir sonraki sprintte neyi farklı yapmalıyız?</li>
-                                        </ol>
-
-
-                                        <h3>6. Yeni Sprint Başlar</h3>
-                                        <p>Geri bildirimlere göre backlog güncellenir ve bir sonraki sprint planlanır:</p>
-                                        <ol>
-                                                <li>Sepete ekleme </li>
-                                                <li>Ödeme ekranı</li>
-                                        </ol>
-
-                                        <p> Bu Süreç Her Sprint’te Tekrarlanır</p>
-                                        <p>Her sprint sonunda çalışan bir ürün parçası ortaya çıkar. Böylece proje:</p>
-                                        <ol>
-                                                <li>Adım adım ilerler </li>
-                                                <li>Sürekli geri bildirimle gelişir </li>
-                                                <li>Müşteri ihtiyaçlarına göre şekillenir</li>
-                                        </ol>
-                                </article>
+                              
                         </div>   
                         <div id="subb2" >
 
