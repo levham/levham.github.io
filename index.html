@@ -1,39 +1,32 @@
 <!DOCTYPE html> 
 <html lang="tr"> 
 <head> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Levham Github Pages</title> 
-        
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
         <!-- CSS  --> 
                 <link rel="stylesheet" href="css/styles.css"> 
                 <link rel="stylesheet" href="css/profil.css"> 
                 <link rel="stylesheet" href="css/nav.css"> 
-                <link rel="stylesheet" href="css/card.css">  
-                <link rel="stylesheet" href="css/iframe.css"> 
-
+                <link rel="stylesheet" href="css/card2.css"> 
                 <style>
-                        body            {  background: rgba(248, 249, 249,0.5);} 
-                        #profil         {  background: rgb( 251, 251, 255);}
-                        nav             {  background: rgb( 247, 248, 248);}
-                        #projeler       {  background: rgba(248, 249, 249,0.5);} 
-
-                        #projeler_liste {  display: block;}
-                        #projeler_notu  {  display: none;}
-                        .cbody          {  display: none;}
-                </style>
+         
+                </style> 
 
         <!-- JS  --> 
-                <script src="script_var.js"> </script>
-                <script src="script_func.js"> </script>
-
-</head> 
-<body> 
+                <script src="js/script_var.js"> </script>
+                <script src="js/script_func.js"> </script>
+</head>
+<body>
+        
 
 <div id="profil">
         <div id="profil_img">
-                <img src="img/logo.png">
+                <img src="icon/logo.png">
         </div>
 
         <div id="profil_info">
@@ -43,11 +36,11 @@
                 </div>
                 <div id="contact_link">
                         <div >
-                                <img src="img/linkedin.png" width="32" height="32">
+                                <img src="icon/linkedin.png" width="32" height="32">
                                 <a href="https://www.linkedin.com/in/murathan-a-b16a1a26a/">Linkedin </a>
                         </div>
                         <div >
-                                <img src="img/telegram.png" width="32" height="32">
+                                <img src="icon/telegram.png" width="32" height="32">
                                 <a href="https://t.me/mr1ay">Telegram</a>
                         </div>
                         <div >
@@ -60,152 +53,435 @@
 </div>
 
 <nav id="nav" >
-       <a href="javascript:void(0)" onclick="navv(1)" >Projeler</a>
-       <a href="javascript:void(0)" onclick="navv(2)" >Notlar</a>  
+        <a href="javascript:void(0)" onclick="navv(1)" >Yazılım</a>
+        <a href="javascript:void(0)" onclick="navv(2)" style="display:none;">Tasarım</a>  
 </nav>
-  
+
 <div id="projeler">
-        <div id="projeler_liste"  >
 
-                <div class="card">  
-                        <div class="cardd"> 
-                                <div class="yy">
-                                        <p class="b1"> <img src="img/bat.png"></p>
-                                        <p class="b2"> Cmd Projesi </p>
-                                        <input class="btn" type="image" src="icon/arrow.png"  /> 
-                                        <div class="yer">
-                                                <div class="c">
-                                                        <p class="b3"> Essential-cmd-for-developer </p>
-                                                        <p class="b4"> [Cmd için kullanılabilecek scriptler]</p>
-                                                </div> 
-                                        </div>
-                                </div> 
-                        </div> 
-                </div>   
 
-                <div class="card">  
-                        <div class="cardd">
-                                <div class="yy">
-                                        <p class="b1"> <img src="img/js.png"></p>
-                                        <p class="b2"> Javascript Projeleri </p>
-                                        <input class="btn" type="image" src="icon/arrow.png"  /> 
-                                        <div class="yer">
-                                                <div class="c"  > 
-                                                        <p class="b3"> <a href="https://t.me/mat_mr1aybot"  >mat_mr1aybot</a> </p>
-                                                        <p class="b4"> Menü üzerinden Matematik Formulleri Gönderir</p>
-                                                </div> 
-                                                <div class="c">  
-                                                        <p class="b3"><a href="https://t.me/matgrup_mr1aybot "  >matgrup_mr1aybot</a>  </p> 
-                                                        <p class="b4">Gruplar için Matematik Formulleri Gönderir</p>
-                                                </div> 
-                                                <div class="c">  
-                                                        <p class="b3"><a href="https://t.me/geo_mr1aybot "  >geo_mr1aybot</a>  </p >
-                                                        <p class="b4">Gruplar için Geometri Formulleri Gönderir</p >
-                                                </div>   
-                                                <div class="c">  
-                                                        <p class="b3"><a href="https://t.me/hendese_mr1aybot "  >hendese_mr1aybot</a> </p>  
-                                                        <p class="b4">Gruplar için Geometri Formulleri Gönderir</p>
-                                                </div>    
-                                                <div class="c">  
-                                                        <div class="b3"><a href="https://t.me/ydskelime_mr1aybot" >ydskelime_mr1aybot</a>  </div> 
-                                                        <div class="b4">Yds kelimeleri için 4 seçenekli soru gönderir</div>
-                                                </div>   
-                                                <div class="c">  
-                                                        <div class="b3"><a href="https://t.me/doviz_mr1aybot "  >doviz_mr1aybot</a>  </div>  
-                                                        <div class="b4">Dövizler hakkında kullanıcıyı bilgilendirir</div>
-                                                </div>  
-                                                <div class="c">  
-                                                        <div class="b3"><a href="https://t.me/hesapla_mr1aybot "  >hesapla_mr1aybot</a>  </div>  
-                                                        <div class="b4">Hesap Makinesi olarak kullanılır </div>
-                                                </div>     
-                                                <div class="c">  
-                                                        <div class="b3"><a href="https://t.me/algebra_mr1aybot "  >algebra_mr1aybot</a>  </div>  
-                                                        <div class="b4">Hesap Makinesi olarak kullanılır </div>
-                                                </div>       
-                                                <div class="c">  
-                                                        <div class="b3"><a href="https://t.me/deprem_mr1aybot "  >deprem_mr1aybot</a>  </div>  
-                                                        <div class="b4">Son Depremleri kullanıcılara gönderir</div>
-                                                </div>     
-                                                <div class="c">  
-                                                        <div class="b3"><a href="https://t.me/ykssayac_mr1aybot " >ykssayac_mr1aybot</a>  </div>  
-                                                        <div class="b4">Yks'ye kalan gün sayısını günlük bildirir</div>
-                                                </div>  
-                                        </div>
-                                </div> 
-                        </div> 
-                </div>  
- 
-                <div class="card">  
-                        <div class="cardd">
-                                <div class="yy">
-                                        <p class="b1"> <img src="img/csharp.png"></p>
-                                        <p class="b2"> Csharp Projesi </p> 
-                                        <input class="btn" type="image" src="icon/arrow.png"  /> 
-                                        <div class="yer">
-                                                <div class="c">
-                                                        <p class="b3"> İnterface</p>
-                                                        <p class="b4"> Json dosyasıyla arayüz oluşturabilirsiniz</p>
-                                                </div> 
-                                        </div>
-                                </div> 
-                        </div> 
-                </div>                              
- 
-                <div class="card">  
-                        <div class="cardd">
-                                <div class="yy">
-                                        <p class="b1"> <img src="img/html.png"><img src="img/css.png"><img src="img/js.png"></p>
-                                        <p class="b2"> Html,Css,Js Projeleri </p>
-                                        <input class="btn" type="image" src="icon/arrow.png"  /> 
-                                        <div class="yer">
-                                                <div class="c">
-                                                        <div class="b3"> levham yazılım sayfası</div>
-                                                        <div class="b4"> projelerin ve notların gösterildiği sayfa</div>
-                                                </div> 
-                                        </div>
-                                </div> 
-                        </div> 
-                </div>  
+<!--yazılım, projelerin listelendiği yer -->
+<div id="yazilim">
 
-               <div class="card">  
-                        <div class="cardd">
-                                <div class="yy"> 
-                                        <p class="b1"> <img src="img/boostrap.png"></p>
-                                        <p class="b2"> Boostrap Projeleri </p>
-                                        <input class="btn" type="image" src="icon/arrow.png"  /> 
-                                        <div class="yer">
-                                                <div class="c">
-                                                        <div class="b3"> todo list</div>
-                                                        <div class="b4"> json destekli yapılacaklar listesi</div>
-                                                </div> 
-                                        </div>
-                                </div> 
-                        </div> 
-                </div>
+    <div class="navsub">
+                <a href="#"  onclick="subb(1)">Telegram (11)</a>     
+                <a href="#"  onclick="subb(2)">Web (2)</a>     
+                <a href="#"  onclick="subb(3)">Mobil (2)</a>     
+                <a href="#"  onclick="subb(4)">Windows (2)</a>     
+    </div>
 
-        </div>
-   
-<!--  other pages -->
-        <div id="projeler_notu">
-                <div class="navsub">
-                      <a href="#"  onclick="subb(1)">Agile</a>     
-                </div>
+    
+    <div id="area1">
 
-                <div class="container_iframe" align="center">
-                    <iframe     src="page/agile.html" 
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t1.png" alt="Son Depremler" >
+                        </div>
 
-                                style="border: none" 
-                                class="iframe" 
-                        > 
-                    </iframe>
+                        <div class="card_header">
+                                <p class="z1">Son Depremler</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Son Depremleri kullanıcılara gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
                 </div>
         </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t2.png" alt="Yks Sayaç" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Yks Sayaç</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Yks tarihlerine ne kadar kaldığını gönderir  </p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t3.png" alt="Döviz" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Döviz</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Dövizler hakkında kullanıcıyı bilgilendirir.</p> 
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t4.png" alt="Matmenu" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Matmenu</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Kullanıcılara menü üzerinden matematik formulü gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t5.png" alt="MatGrup" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">MatGrup</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Kullanıcılara komutlar ile matematik formulü gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t6.png" alt="Geometri" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Geometri</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Kullanıcılara geometri formulü gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t7.png" alt="Geometri İlmi" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Geometri İlmi</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Kullanıcılara menü üzerinden matematik ve geometri formulü gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t8.png" alt="Hendese" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Hendese</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Kullanıcılara türkçe ve azerbaycan dilinde geometri formulü gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t9.png" alt="Algebra" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Algebra</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Hesap Makinesi olarak kullanılır</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t10.png" alt="Hesapla" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Hesapla</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Hesap Makinesi olarak kullanılır</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="cardd">
+                        <div class="card_image">
+                                <img src="img/t11.png" alt="Yds Kelime" >
+                        </div>
+
+                        <div class="card_header">
+                                <p class="z1">Yds Kelime</p>
+                                <p class="z2">Telegram</p>
+                        </div>
+                        <div class="card_info"> 
+                                <p class="z3">Yds kelimeleri için 4 seçenekli soru gönderir</p>
+                                <p class="z4">#javascript</p>
+                        </div>
+                </div>
+        </div>
+
+    </div>
+
+    <div id="area2">
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/we1.png" alt="Levham" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <p class="z1">Levham</p>
+                                    <p class="z2">Web</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Projelerimi bir arada ve düzenli şekilde sergilediğim kişisel web sitem,</p>
+                                    <p class="z3"></p>
+                                    <p class="z4">#html, #css, #js</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/we2.png" alt="Todo List" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <p class="z1">Todo List</p>
+                                    <p class="z2">Web</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Not tutmak için yapılmış bir proje</p>
+                                    <p class="z3">Json dosyası destekliyor</p>
+                                    <p class="z4">#html, #css, #js</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+
+    </div>
+
+    <div id="area3">
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/m3.png" alt="Not Defteri" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <br>
+                                    <p class="z1">Not Defteri</p>
+                                    <p class="z2">Web</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Not tutmak için yapılmış bir proje</p>
+                                    <br>
+                                    <p class="z4">#flutter</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/m1.png" alt="Klavye" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <br>
+                                    <p class="z1">Klavye</p>
+                                    <p class="z2">Windows</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Android için alternatif klavye projesi</p>
+                                    <br>
+
+                                    <p class="z4">#java</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+
+
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/m2.png" alt="Yönetim" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <p class="z1">Yönetim</p>
+                                    <p class="z2">Mobil</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Telefonun internet,bluetooth un açık olup olmadığı ayrıca ses ve ekran parlaklığını min ve max ayarlanabildiği bir proje</p>
+                                    <p class="z4">#java</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+
+    </div>
+
+    <div id="area4">
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/w1.png" alt="İnterface" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <p class="z1">İnterface</p>
+                                    <p class="z2">Windows</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Kullanıcıların json dosyası üzerinden kendi menülerini oluşturabildiği bir proje</p>
+                                    <p class="z4">#csharp</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+                
+            <div class="card">
+                    <div class="cardd">
+                            <div class="card_image">
+                                    <img src="img/w2.png" alt="Hesap Makinesi" >
+                            </div>
+    
+                            <div class="card_header">
+                                    <p class="z1">Hesap Makinesi</p>
+                                    <p class="z2">Windows</p>
+                            </div>
+                            <div class="card_info"> 
+                                    <p class="z3">Kullanıcılardan aldığı değerlerle hesaplama yapabilen hesap makinesi</p>
+                                    <p class="z4">#csharp</p>
+                                <!--    <a class="z5" href="">#link</p> -->
+                            </div>
+                    </div>
+            </div>
+
+    </div>
+
+
 </div>
+
+
+
+<div id="tasarim">
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- Modal -->
+<div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="fullImage">
+</div>
+
+<script>
+        const modal = document.getElementById("modal");
+        const modalImg = document.getElementById("fullImage");
+        const closeBtn = document.querySelector(".close");
+
+        // Tüm .b1 içindeki img'leri seç
+        const thumbnails = document.querySelectorAll(".card_image img");
+
+        thumbnails.forEach(img => {
+          img.addEventListener("click", function () {
+            modalImg.src = img.src; // 🔥 Tıklanan resmin src'sini büyük resme aktar
+            modal.classList.add("show");
+          });
+        });
+        closeBtn.onclick = function () {
+          modal.classList.remove("show");
+        };
+
+        modal.onclick = function (e) {
+          if (e.target === modal) {
+            modal.classList.remove("show");
+          }
+        };
+         
+</script>
  
 
-</body> 
-</html> 
+
+
+</body>
 
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

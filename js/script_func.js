@@ -1,7 +1,7 @@
 //     nav function 
 function navv(x) {
-        const page1 = document.getElementById("projeler_liste");
-        const page2 = document.getElementById("projeler_notu");
+        const page1 = document.getElementById("yazilim");
+        const page2 = document.getElementById("tasarim");
 
         switch(x){
                 case 1:
@@ -18,7 +18,7 @@ function navv(x) {
 //     sub nav function
 function subb(num) {
         for (let i = 1; i <= 4; i++) {
-                const el = document.getElementById("subb" + i);
+                const el = document.getElementById("area" + i);
                 if (el) {
                   el.style.display = (i === num) ? "block" : "none";
                 }

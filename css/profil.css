@@ -1,22 +1,24 @@
+ 
         #profil{
-                padding: 30px;
+                padding: 5px;
                 height: auto;
                 width: auto;
                 display: flex;  
                 justify-content: center;
-                align-items: center;
-                align-items: stretch;  
+                align-items: center;  
+                flex-wrap: wrap;
         } 
 
                 #profil_img{  
                         display: flex;
                 }
                 #profil_img img{
-                        height:auto; 
+                        height:200px; 
+                        border-radius: 100px;
                 } 
                 #profil_info{
 
-                        margin-left: 70px;
+                        padding-left: 10px;
                 }
 
                 #profil_info_link  h1 a {   
@@ -55,3 +57,11 @@
                         font-style: italic; 
                         color: purple;
                 } 
+
+        @media (max-width: 600px) {
+               #profil_info_link  h1  ,#profil_info_link  h2, #contact_link {
+                       
+                        text-align: center;
+                }
+
+                 }
