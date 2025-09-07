@@ -32,7 +32,7 @@
                 transition: 0.3s;
                 border-radius: 15px;
                 width: 320px; 
-                padding: 20px 0px; 
+                padding: 15px 0px; 
                 background-color:rgb(251, 251, 255);
         } 
 
@@ -51,17 +51,17 @@
 
                 .z1
                 { 
-                        font-family: 'Inter', sans-serif;
+                        font-family: 'Nunito', sans-serif;
                         padding: 5px;
                         color: rgb( 12,54,150);
                         font-style: italic;
-                        font-size: 18px;
+                        font-size: 16px;
                  
                 }
                  
                 .z2{
-                        font-size: 18px;
-                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-family: 'IBM Plex Sans', sans-serif;
                         font-style: italic;
                         background-color:#f4f4d4;
                         color: black;
@@ -69,12 +69,16 @@
                 }
                  
                 .z3{
-                        font-size: 16px;
+                        font-family: "IBM Plex Sans", serif;
+                        font-size: 14px;
                         color: rgb( 72,72,72);
                         font-style: italic;
+                        padding: 0 25px;
                 }
                 .z4{
-                        font-size: 14px;
+                        margin-top:5px;
+                        font-family: "Alegreya", serif;
+                        font-size: 15px;
                         color: #d9806f;
                         font-style: italic;
                 }
