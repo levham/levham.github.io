@@ -1,19 +1,26 @@
 //     nav function 
 function navv(x) {
-        const page1 = document.getElementById("yazilim");
-        const page2 = document.getElementById("tasarim");
+  const navy = document.getElementById("nav_yazilim");
+  const navt = document.getElementById("nav_tasarim");
+  const page1 = document.getElementById("yazilim");
+  const page2 = document.getElementById("tasarim");
 
-        switch(x){
-                case 1:
-                        page1.style.display = "block";
-                        page2.style.display = "none";  
-                        break;
-                case 2:
-                        page1.style.display = "none";  
-                        page2.style.display = "block";
-                        break;
-                }
-        }
+  navy.classList.remove("active");
+  navt.classList.remove("active"); 
+
+  if (x === 1) {
+    page1.style.display = "block";
+    page2.style.display = "none";
+
+    navy.classList.add("active");
+  } else {
+    page1.style.display = "none";
+    page2.style.display = "block";
+
+    navt.classList.add("active");
+  }
+}
+  
 
 //     sub nav function
 function subb(num) {
@@ -21,6 +28,8 @@ function subb(num) {
                 const el = document.getElementById("area" + i);
                 if (el) {
                   el.style.display = (i === num) ? "block" : "none";
+                  el.classList.add("fade-in");
                 }
         }
 }
+ 

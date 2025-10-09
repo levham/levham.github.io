@@ -53,12 +53,18 @@
                 { 
                         font-family: 'Nunito', sans-serif;
                         padding: 5px;
-                        color: rgb( 12,54,150);
                         font-style: italic;
                         font-size: 16px;
-                 
+                        text-decoration: none;
                 }
-                 
+
+                a.z1{
+                        color: rgb( 12,54,150);
+                }
+                
+                p.z1 {
+                        color:rgb(184, 2, 28);
+                }
                 .z2{
                         font-size: 16px;
                         font-family: 'IBM Plex Sans', sans-serif;

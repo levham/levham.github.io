@@ -24,10 +24,11 @@
                 <script src="js/script_var.js"> </script>
                 <script src="js/script_func.js"> </script>
 </head>
-<body>
+<body onload="navv(1)">
+
         
 
-<div id="profil">
+<div id="profil" class="fade-in">
         <div id="profil_img">
                 <img src="icon/logo.png">
         </div>
@@ -55,16 +56,16 @@
         </div>
 </div>
 
-<nav id="nav" >
-        <a href="javascript:void(0)" onclick="navv(1)" >Yazılım</a>
-        <a href="javascript:void(0)" onclick="navv(2)" style="display:none;">Tasarım</a>  
+<nav id="nav"  class="fade-in">
+        <a href="javascript:void(0)" onclick="navv(1)" id="nav_yazilim" >Yazılım</a>
+        <a href="javascript:void(0)" onclick="navv(2)" id="nav_tasarim" >Tasarım</a>  
 </nav>
 
 <div id="projeler">
 
 
 <!--yazılım, projelerin listelendiği yer -->
-<div id="yazilim">
+<div id="yazilim" class="fade-in">
 
     <div class="navsub">
                 <a href="#"  onclick="subb(1)">Telegram (11)</a>     
@@ -83,7 +84,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Son Depremler</p>
+                                <a class="z1" href="https://t.me/deprem_mr1aybot">Son Depremler</a>
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -99,7 +100,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Yks Sayaç</p>
+                                <a class="z1" href="https://t.me/ykssayac_mr1aybot">Yks Sayaç</a>
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -115,7 +116,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Döviz</p>
+                                <a class="z1" href="https://t.me/doviz_mr1aybot">Döviz</a>
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -131,8 +132,8 @@
                                 <img src="img/t4.png" alt="Matmenu" >
                         </div>
 
-                        <div class="card_header">
-                                <p class="z1">Matmenu</p>
+                        <div class="card_header"> 
+                                <a class="z1" href="https://t.me/mat_mr1aybot ">MatMenu</a>
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -148,7 +149,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">MatGrup</p>
+                                <a class="z1" href="https://t.me/matgrup_mr1aybot ">MatGrup</a>
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -164,7 +165,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Geometri</p>
+                                <a class="z1" href="https://t.me/geo_mr1aybot ">Geometri</a>
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -180,7 +181,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Geometri İlmi</p>
+                                <a class="z1" href="https://t.me/geometriilmibot">Geometri İlmi</a>   
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -196,7 +197,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Hendese</p>
+                                <a class="z1" href="https://t.me/hendese_mr1aybot">Hendese</a> 
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -213,7 +214,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Algebra</p>
+                                <a class="z1" href="https://t.me/algebra_mr1aybot">Algebra</a> 
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -229,7 +230,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Hesapla</p>
+                                <a class="z1" href="https://t.me/hesapla_mr1aybot">Hesapla</a> 
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -245,7 +246,7 @@
                         </div>
 
                         <div class="card_header">
-                                <p class="z1">Yds Kelime</p>
+                                <a class="z1" href="https://t.me/ydskelime_mr1aybot">Yds Kelime</a> 
                                 <p class="z2">Telegram</p>
                         </div>
                         <div class="card_info"> 
@@ -265,7 +266,7 @@
                             </div>
     
                             <div class="card_header">
-                                    <p class="z1">Levham</p>
+                                    <a class="z1" href="https://levham.github.io">Levham</a> 
                                     <p class="z2">Web</p>
                             </div>
                             <div class="card_info"> 
@@ -368,7 +369,7 @@
                             </div>
     
                             <div class="card_header">
-                                    <p class="z1">İnterface</p>
+                                    <a class="z1" href="https://github.com/levham/interface">İnterface</a>
                                     <p class="z2">Windows</p>
                             </div>
                             <div class="card_info"> 
@@ -414,16 +415,19 @@
                             </div>
                     </div>
             </div>
-
+            
     </div>
-
-
 </div>
 
 
 
-<div id="tasarim">
-
+<div id="tasarim" class="fade-in">
+  <div class="navsub">
+                <a href="#"  onclick="subb(1)">2D (0)</a>     
+                <a href="#"  onclick="subb(2)">3D (0)</a>     
+                <a href="#"  onclick="subb(3)">Web (0)</a>     
+                <a href="#"  onclick="subb(4)">Mobil (0)</a>     
+    </div>
 
 </div>
 
@@ -466,6 +470,12 @@
          
 </script>
  
+ <script>
+  window.addEventListener("DOMContentLoaded", () => {
+    navv(1); // Sayfa açıldığında Yazılım sekmesi aktif olsun
+  });
+</script>
+
 
 
 
