@@ -32,4 +32,15 @@ function subb(num) {
                 }
         }
 }
+
+ //     sub nav function
+function subb2(num) {
+        for (let i = 1; i <= 2; i++) {
+                const el = document.getElementById("areaa" + i);
+                if (el) {
+                  el.style.display = (i === num) ? "block" : "none";
+                  el.classList.add("fade-in");
+                }
+        }
+}
  
