@@ -3,6 +3,7 @@
 #area3{display:none}
 #area4{display:none}
 	
+#areaa2{display:none}
 
 /* Ana Navbar */
 nav {
@@ -24,24 +25,11 @@ nav a {
     font-size: 20px;
     font-style: italic;
     text-decoration: none; 
-    padding:  2px 20px;
+    padding:  5px 20px;
     transition: color 0.4s ease;
     border-radius: 5px      ;
 }
-/*
- #nav a:hover{
-	color:wheat ;
-    background-color: rgba(248, 255, 255,0.2);
-    transition: color 0.2s ease-in-out;
-}
-#nav_yazilim{
-	color:PowderBlue ;  
-}
-
-#nav_tasarim{
-	color:LightGray ; 
-}
-*/
+ 
 #nav a {
   color: LightGray;
   transition: color 0.2s ease-in-out;
@@ -50,14 +38,23 @@ nav a {
 
 #nav a:hover {
   color: #B0E3E5;
-  background-color: rgba(248, 255, 255, 0.2);
+  background-color: rgba(128, 232, 255, 0.5);
   border-radius: 20px 0 20px 0;
 }
 
 #nav a.active {
   color: PowderBlue;
-}
+   border-radius: 20px 0 20px 0;
 
+ background-color: rgba(128, 232, 255, 0.25);
+     
+}
+#nav a.active:hover {
+  color:  #80e8ff   ; /* İsterseniz burayı normal hover ile aynı yapabilirsiniz */
+  background-color: rgba(128, 232, 255, 0.4);
+
+}
+    
  
 
 

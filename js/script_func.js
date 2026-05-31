@@ -1,9 +1,9 @@
 //     nav function 
 function navv(x) {
-  const navy = document.getElementById("nav_yazilim");
-  const navt = document.getElementById("nav_tasarim");
-  const page1 = document.getElementById("yazilim");
-  const page2 = document.getElementById("tasarim");
+  const navt = document.getElementById("nav_yazilim");
+  const navy = document.getElementById("nav_tasarim");
+  const page1 = document.getElementById("tasarim");
+  const page2 = document.getElementById("yazilim");
 
   navy.classList.remove("active");
   navt.classList.remove("active"); 
